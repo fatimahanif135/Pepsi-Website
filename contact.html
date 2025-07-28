@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="contact.css" />
+  <link rel="stylesheet" href="../global.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <title>Document</title>
+</head>
+
+<body style="background-color: black; overflow-x: hidden;">
+  <div class="parent-nav">
+    <!-- child 1 -->
+    <div class="logo-img">
+      <img class="nav-logo" src="./././././../images/logo.png" alt="logo" />
+    </div>
+    <!-- child 2 -->
+    <div class="navigation">
+      <a href="../index.html">Home</a>
+      <a href="../Products/product.html">Product</a>
+      <div>Contact</div>
+    </div>
+    <!-- child 3 -->
+    <div class="icons">
+      <i class="fa-brands fa-square-facebook"></i>
+      <i class="fa-brands fa-square-instagram"></i>
+      <i class="fa-brands fa-square-x-twitter"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+  </div>
+
+  <!-- main -->
+  <div>
+    <div class="main-contact">
+      <h1 class="contact">Contact Us</h1>
+      <p class="cont-p">Whatever you'd like to know about our products, our company or initiatives, we can help.</p>
+    </div>
+
+    <!-- dropdown -->
+    <div class="dropdown1">
+
+      <select class="s1">
+        <option value="English">English</option>
+        <option value="Urdu">Urdu</option>
+        <option value="Chinese">Chinese</option>
+        <option value="Spanish">Spanish</option>
+        <option value="Korean">Korean</option>
+        <option value="Japanese">Japanese</option>
+        <option value="French">French</option>
+        <option value="German">German</option>
+        <option value="Italian">Italian</option>
+      </select>
+    </div>
+
+    <div class="p2">
+      <p>Please enter relevant information into the form below.</p>
+    </div>
+
+    <!-- form section with margin -->
+    <div
+      style="display: flex; align-items: flex-start; justify-content: center; flex-direction: column; margin-left: 100px;">
+      <p class="p3">Reason For Getting In Touch:</p>
+      <div class="d2">
+        <select class="s2">
+          <option disabled selected>Choose...</option>
+          <option>Enquiry</option>
+          <option>Issue</option>
+          <option>Positive feedback</option>
+        </select>
+      </div>
+
+      <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+        <div class="align-col">
+          <p class="p4">Title:</p>
+          <select class="s3">
+            <option>Mr</option>
+            <option>Mrs</option>
+            <option>Doctor</option>
+            <option>Miss</option>
+            <option>Master</option>
+            <option>Ms</option>
+            <option>Other</option>
+
+          </select>
+        </div>
+
+        <div class="align-col">
+          <p class="p4">First Name:</p>
+          <input class="input1" type="text" />
+        </div>
+
+        <div class="align-col">
+          <p class="p4">Last Name:</p>
+          <input class="input1" type="text" />
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+        <div class="align-col">
+          <p class="p4">Email Address:</p>
+          <input class="input2" type="text" placeholder="you@example.com" />
+        </div>
+
+        <div class="align-col">
+          <p class="p4">Confrim Email:</p>
+          <input class="input2" type="text" placeholder="you@example.com" />
+        </div>
+      </div>
+      <p style="color: grey; margin-top: 5px;">We'll never share your email address with anyone else.</p>
+
+      <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+        <div class="align-col">
+          <p class="p4">House Number And Street Name:</p>
+          <input class="input3" type="text" />
+        </div>
+
+        <div class="align-col">
+          <p class="p4">City:</p>
+          <input class="input4" type="text" />
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+        <div class="align-col">
+          <p class="p4">Post Code:</p>
+          <input class="input1" type="text" />
+        </div>
+
+        <div class="align-col">
+          <p class="p4">Country:</p>
+          <input class="input1" type="text" />
+        </div>
+
+        <div class="align-col">
+          <p class="p4">Country:</p>
+          <select class="s3">
+            <option value="" disabled selected>Choose...</option>
+            <option>English</option>
+            <option>Urdu</option>
+            <option>Spanish</option>
+            <option>China</option>
+            <option>Korea</option>
+            <option>Englad</option>
+            <option>South Korea</option>
+            <option>Turkey</option>
+          </select>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+        <div class="align-col">
+          <p class="p4">Contact Telephone Number:</p>
+          <input class="input5" type="text" placeholder="+92 123456789" />
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+        <div class="align-col">
+          <p class="p4">Comments:</p>
+          <input class="input6" type="text" />
+        </div>
+      </div>
+
+      <div style="width: 100%;">
+        <div class="align-col">
+          <p class="p4">Select an image to upload:</p>
+          <input type="file" id="myFile" name="Choose File" class="input7" />
+          <label for="myFile">No file chosen:</label>
+          <p style="color: grey; margin-top: 5px; font-size: 14px;">&lt; 15Mb .png .jpg .jpeg .gif</p>
+        </div>
+
+        <div class="align-col" style="width: 100%;">
+          <p class="p4">Select an image to upload:</p>
+          <input type="file" id="myFile2" name="Choose File" class="input7" />
+          <label for="myFile2">No file chosen:</label>
+          <p style="color: grey; margin-top: 5px; font-size: 14px;">&lt; 15Mb .png .jpg .jpeg .gif</p>
+        </div>
+      </div>
+    </div> <!-- END of margin-left div -->
+
+    <!-- ✅ Fixed full-width border -->
+    <div style="border-bottom: 3px solid white; margin-top: 30px; width: 100vw; margin-left: 0;"></div>
+  </div>
+
+  <!-- footer -->
+  <div>
+    <div class="footer-main2">
+      <img class="footer-logo" src="./././././../images/logo.png" alt="logo" />
+      <div class="footer-icon">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-square-x-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </div>
+
+    <div class="footer-text">
+      <h4>Contact</h4>
+      <h4>FQA</h4>
+      <h4>Privacy</h4>
+      <h4>Promotion Terms & Conditions</h4>
+      <h4>PEPSI PASS Terms & Conditions</h4>
+      <h4>PEPSI PASS Terms & Conditions</h4>
+    </div>
+
+    <div class="last-footer">
+      <h3>© 2024 Pepsico, Inc.</h3>
+    </div>
+  </div>
+</body>
+
+</html>
