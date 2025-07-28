@@ -1,1 +1,1 @@
-# Pepsi-Website
+This project is a replica of the Pepsi landing page, created using only HTML and CSS. It focuses on visual layout, styling, and structure to closely match the original design. This project was built to strengthen frontend development skills and explore real-world website design through clean, organized code.
